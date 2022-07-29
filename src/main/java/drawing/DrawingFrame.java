@@ -52,6 +52,10 @@ public class DrawingFrame extends Frame {
         mCanvas.setIterations(itr);
     }
 
+    public void setSpeed(double speed) {
+        mCanvas.setSpeed(speed);
+    }
+
     public DrawingFrame hideFrame() {
         mInstance.setVisible(false);
         return mInstance;
